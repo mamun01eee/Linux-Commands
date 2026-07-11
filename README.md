@@ -46,3 +46,59 @@ These commands are used to create, copy, move, and delete files and directories.
 | `rm -rf <folder_name>` | Force delete a folder and its contents | `rm -rf Invoice` |
 
 ---
+
+# 📂 Navigation Commands
+
+Navigation commands are used to move between directories and explore the Linux file system.
+
+| Command | Description | Example |
+|---|---|---|
+| `pwd` | Shows the current working directory path | `pwd` |
+| `ls` | Lists files and folders in the current directory | `ls` |
+| `ls -la` | Lists all files including hidden files with detailed information | `ls -la` |
+| `cd` | Go to the home directory | `cd` |
+| `cd <folder_name>` | Go to a specific folder | `cd Desktop` |
+| `cd ../` | Go to the parent directory | `cd ../` |
+| `../` | Represents the parent directory | `../` |
+| `cd /usr/bin` | Navigate to the system binary directory | `cd /usr/bin` |
+| `ls /mnt/hgfs` | View VMware shared folder contents | `ls /mnt/hgfs` |
+
+---
+
+# 📄 File Viewing & Editing Commands
+
+These commands are used to view and edit files from the Linux terminal.
+
+| Command | Description | Example |
+|---|---|---|
+| `cat <file_name>` | Displays the contents of a file | `cat new02.txt` |
+| `nano <file_name>` | Opens or creates a file using Nano editor | `nano new02.txt` |
+| `mousepad <file_name>` | Opens or creates a file using Mousepad editor | `mousepad new03.txt` |
+
+---
+
+# 👤 User & Permission Management Commands
+
+These commands are used to manage users, view user information, and control file permissions in Linux.
+
+| Command | Description | Example |
+|---|---|---|
+| `whoami` | Shows the current logged-in username | `whoami` |
+| `id` | Shows user ID, group ID, and group information | `id` |
+| `passwd` | Change the user password | `passwd` |
+| `chmod` | Change file or directory permissions | `chmod 755 file.sh` |
+| `chmod +x <file_name>` | Make a file executable | `chmod +x zpshisher.sh` |
+
+---
+
+# 🔎 Search & Filter Commands
+
+These commands are used to find files and search for specific information inside files.
+
+| Command | Description | Example |
+|---|---|---|
+| `find / -name "<file_name>" 2>/dev/null` | Search for a file by name from the root directory | `find / -name "test.txt" 2>/dev/null` |
+| `find / -name "*.<extension>" 2>/dev/null` | Search files by extension | `find / -name "*.txt" 2>/dev/null` |
+| `grep <text>` | Search for specific text or patterns | `grep "password" file.txt` |
+
+---
