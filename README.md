@@ -25,7 +25,7 @@ This repository contains my personal notes, explanations, and practical examples
 Package management commands are used to update and maintain software packages in Linux systems.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `sudo apt update` | Update package list from repositories | `sudo apt update` |
 | `sudo apt upgrade` | Upgrade installed packages to the latest version | `sudo apt upgrade` |
 
@@ -36,7 +36,7 @@ Package management commands are used to update and maintain software packages in
 These commands are used to create, copy, move, and delete files and directories.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `mkdir <folder_name>` | Create a new folder | `mkdir Invoice` |
 | `touch <file_name>` | Create an empty file | `touch new01.txt` |
 | `cp <file_name> <location>` | Copy a file to another location | `cp new01.txt /home/kali/Desktop` |
@@ -52,7 +52,7 @@ These commands are used to create, copy, move, and delete files and directories.
 Navigation commands are used to move between directories and explore the Linux file system.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `pwd` | Shows the current working directory path | `pwd` |
 | `ls` | Lists files and folders in the current directory | `ls` |
 | `ls -la` | Lists all files including hidden files with detailed information | `ls -la` |
@@ -70,7 +70,7 @@ Navigation commands are used to move between directories and explore the Linux f
 These commands are used to view and edit files from the Linux terminal.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `cat <file_name>` | Displays the contents of a file | `cat new02.txt` |
 | `nano <file_name>` | Opens or creates a file using Nano editor | `nano new02.txt` |
 | `mousepad <file_name>` | Opens or creates a file using Mousepad editor | `mousepad new03.txt` |
@@ -82,7 +82,7 @@ These commands are used to view and edit files from the Linux terminal.
 These commands are used to manage users, view user information, and control file permissions in Linux.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `whoami` | Shows the current logged-in username | `whoami` |
 | `id` | Shows user ID, group ID, and group information | `id` |
 | `passwd` | Change the user password | `passwd` |
@@ -96,7 +96,7 @@ These commands are used to manage users, view user information, and control file
 These commands are used to find files and search for specific information inside files.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `find / -name "<file_name>" 2>/dev/null` | Search for a file by name from the root directory | `find / -name "test.txt" 2>/dev/null` |
 | `find / -name "*.<extension>" 2>/dev/null` | Search files by extension | `find / -name "*.txt" 2>/dev/null` |
 | `grep <text>` | Search for specific text or patterns | `grep "password" file.txt` |
@@ -108,7 +108,7 @@ These commands are used to find files and search for specific information inside
 These commands help to view and understand the structure of directories and folders in Linux.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `tree` | Shows the directory structure in a tree format | `tree` |
 | `tree -L 2` | Shows directory structure up to 2 levels | `tree -L 2` |
 
@@ -119,7 +119,7 @@ These commands help to view and understand the structure of directories and fold
 These commands are used to view network information, check connectivity, and troubleshoot network-related issues.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `ifconfig` | Shows network interface information and IP details | `ifconfig` |
 | `ip addr` | Displays IP address and network interface details | `ip addr` |
 | `ping <host>` | Tests network connectivity between your system and a host | `ping google.com` |
@@ -132,7 +132,7 @@ These commands are used to view network information, check connectivity, and tro
 Git commands are used to manage repositories and work with GitHub projects.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `git clone <URL>` | Downloads a repository from GitHub to your local system | `git clone https://github.com/user/repository.git` |
 
 ---
@@ -142,7 +142,7 @@ Git commands are used to manage repositories and work with GitHub projects.
 These commands are used to give execution permission to scripts and run executable files in Linux.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `chmod +x <file_name>` | Gives execute permission to a script file | `chmod +x zpshisher.sh` |
 | `./<file_name>` | Runs an executable script from the current directory | `./zpshisher.sh` |
 
@@ -153,7 +153,7 @@ These commands are used to give execution permission to scripts and run executab
 These commands are commonly used for managing and working efficiently with the Linux terminal.
 
 | Command | Description | Example |
-|---|---|---|
+|:---|:---:|---:|
 | `history` | Shows previously executed commands | `history` |
 | `clear` | Clears the terminal screen | `clear` |
 | `exit` | Closes the terminal session | `exit` |
