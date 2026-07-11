@@ -45,3 +45,16 @@ A practical collection of Linux commands for my Cyber Security and Ethical Hacki
 | `grep` | Searches for specific text or patterns inside files | `grep "word" file.txt` |
 
 ---
+---
+
+## 👤 User & Permission Management Commands
+
+| Command | Description | Example |
+|---|---|---|
+| `whoami` | Shows the current logged-in username | `whoami` |
+| `id` | Displays user ID, group ID, and group information | `id` |
+| `passwd` | Changes the user password | `passwd` |
+| `chmod` | Changes file or directory permissions | `chmod 755 file.sh` |
+| `chmod +x` | Makes a file executable | `chmod +x script.sh` |
+
+---
