@@ -1,60 +1,48 @@
-# Linux-Commands
-A practical collection of Linux commands for my Cyber Security and Ethical Hacking journey
+# Linux Command Handbook
+
+A practical collection of Linux commands that I am learning during my Cyber Security and Ethical Hacking journey.
+
+This repository contains my personal notes, explanations, and practical examples of commonly used Linux commands.
+
+## 📚 Topics Covered
+
+- 📦 Package Management
+- 📁 File & Directory Management
+- 📂 Navigation Commands
+- 📄 File Viewing & Editing
+- 👤 User & Permission Management
+- 🔎 Search & Filter Commands
+- 🌳 Directory Structure Commands
+- 🌐 Networking Commands
+- 🔗 Git Commands
+- 🛡️ Security Script Execution
+- 💻 Terminal Utility Commands
 
 ---
 
-## 📦 Package Management Commands
+# 📦 Package Management Commands
+
+Package management commands are used to update and maintain software packages in Linux systems.
 
 | Command | Description | Example |
 |---|---|---|
-| `sudo apt update` | Updates the package list from repositories | `sudo apt update` |
-| `sudo apt upgrade` | Upgrades installed packages | `sudo apt upgrade` |
+| `sudo apt update` | Update package list from repositories | `sudo apt update` |
+| `sudo apt upgrade` | Upgrade installed packages to the latest version | `sudo apt upgrade` |
 
 ---
 
----
+# 📁 File & Directory Management Commands
 
-## 📁 Navigation & File Management Commands
+These commands are used to create, copy, move, and delete files and directories.
 
 | Command | Description | Example |
 |---|---|---|
-| `pwd` | Shows the current working directory | `pwd` |
-| `ls` | Lists files and directories | `ls` |
-| `ls -la` | Shows all files including hidden files with details | `ls -la` |
-| `cd` | Changes the current directory | `cd folder_name` |
-| `cd ../` | Moves one directory back | `cd ../` |
-| `mkdir` | Creates a new directory | `mkdir folder_name` |
-| `touch` | Creates a new empty file | `touch file.txt` |
-| `cp` | Copies files | `cp file1 file2` |
-| `cp -r` | Copies directories recursively | `cp -r folder1 folder2` |
-| `mv` | Moves or renames files and directories | `mv old new` |
-| `rm` | Removes files | `rm file.txt` |
-| `rm -rf` | Removes directories forcefully | `rm -rf folder_name` |
-
----
-
----
-
-## 📄 Text Processing & Editing Commands
-
-| Command | Description | Example |
-|---|---|---|
-| `cat` | Displays the content of a file | `cat file.txt` |
-| `nano` | Opens a terminal-based text editor | `nano file.txt` |
-| `mousepad` | Opens a graphical text editor | `mousepad file.txt` |
-| `grep` | Searches for specific text or patterns inside files | `grep "word" file.txt` |
-
----
----
-
-## 👤 User & Permission Management Commands
-
-| Command | Description | Example |
-|---|---|---|
-| `whoami` | Shows the current logged-in username | `whoami` |
-| `id` | Displays user ID, group ID, and group information | `id` |
-| `passwd` | Changes the user password | `passwd` |
-| `chmod` | Changes file or directory permissions | `chmod 755 file.sh` |
-| `chmod +x` | Makes a file executable | `chmod +x script.sh` |
+| `mkdir <folder_name>` | Create a new folder | `mkdir Invoice` |
+| `touch <file_name>` | Create an empty file | `touch new01.txt` |
+| `cp <file_name> <location>` | Copy a file to another location | `cp new01.txt /home/kali/Desktop` |
+| `cp -r <folder_name> <location>` | Copy a folder with all contents | `cp -r Invoice /home/kali/Desktop` |
+| `mv <file_name> <location> or <rename>` | Move or rename a file | `mv new01.txt new001.txt` |
+| `rm <file_name>` | Delete a file | `rm new02.txt` |
+| `rm -rf <folder_name>` | Force delete a folder and its contents | `rm -rf Invoice` |
 
 ---
