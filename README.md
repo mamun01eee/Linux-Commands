@@ -125,3 +125,37 @@ These commands are used to view network information, check connectivity, and tro
 | `ping <host>` | Tests network connectivity between your system and a host | `ping google.com` |
 
 ---
+---
+
+# 🔗 Git Commands
+
+Git commands are used to manage repositories and work with GitHub projects.
+
+| Command | Description | Example |
+|---|---|---|
+| `git clone <URL>` | Downloads a repository from GitHub to your local system | `git clone https://github.com/user/repository.git` |
+
+---
+
+# 🛡️ Security Script Execution Commands
+
+These commands are used to give execution permission to scripts and run executable files in Linux.
+
+| Command | Description | Example |
+|---|---|---|
+| `chmod +x <file_name>` | Gives execute permission to a script file | `chmod +x zpshisher.sh` |
+| `./<file_name>` | Runs an executable script from the current directory | `./zpshisher.sh` |
+
+---
+
+# 💻 Terminal Utility Commands
+
+These commands are commonly used for managing and working efficiently with the Linux terminal.
+
+| Command | Description | Example |
+|---|---|---|
+| `history` | Shows previously executed commands | `history` |
+| `clear` | Clears the terminal screen | `clear` |
+| `exit` | Closes the terminal session | `exit` |
+
+---
