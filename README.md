@@ -22,7 +22,7 @@ A practical collection of Linux commands for my Cyber Security and Ethical Hacki
 | `ls` | Lists files and directories | `ls` |
 | `ls -la` | Shows all files including hidden files with details | `ls -la` |
 | `cd` | Changes the current directory | `cd folder_name` |
-| `cd ..` | Moves one directory back | `cd ..` |
+| `cd ../` | Moves one directory back | `cd ../` |
 | `mkdir` | Creates a new directory | `mkdir folder_name` |
 | `touch` | Creates a new empty file | `touch file.txt` |
 | `cp` | Copies files | `cp file1 file2` |
