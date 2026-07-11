@@ -102,3 +102,26 @@ These commands are used to find files and search for specific information inside
 | `grep <text>` | Search for specific text or patterns | `grep "password" file.txt` |
 
 ---
+
+# 🌳 Directory Structure Commands
+
+These commands help to view and understand the structure of directories and folders in Linux.
+
+| Command | Description | Example |
+|---|---|---|
+| `tree` | Shows the directory structure in a tree format | `tree` |
+| `tree -L 2` | Shows directory structure up to 2 levels | `tree -L 2` |
+
+---
+
+# 🌐 Networking Commands
+
+These commands are used to view network information, check connectivity, and troubleshoot network-related issues.
+
+| Command | Description | Example |
+|---|---|---|
+| `ifconfig` | Shows network interface information and IP details | `ifconfig` |
+| `ip addr` | Displays IP address and network interface details | `ip addr` |
+| `ping <host>` | Tests network connectivity between your system and a host | `ping google.com` |
+
+---
