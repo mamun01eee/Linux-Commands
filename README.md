@@ -6,18 +6,27 @@ This repository contains my personal notes, explanations, and practical examples
 
 ## 📚 Topics Covered
 
-- 📦 Package Management
-- 📁 File & Directory Management
-- 📂 Navigation Commands
-- 📄 File Viewing & Editing
-- 👤 User & Permission Management
-- 🔎 Search & Filter Commands
-- 🌳 Directory Structure Commands
-- 🌐 Networking Commands
-- 🔗 Git Commands
-- 🛡️ Security Script Execution
-- 💻 Terminal Utility Commands
+#### [📦 Package Management Commands](#-package-management-commands)
 
+#### [📁 File & Directory Management Commands](#-file--directory-management-commands)
+
+#### [📂 Navigation Commands](#-navigation-commands)
+
+#### [📄 File Viewing & Editing Commands](#-file-viewing--editing-commands)
+
+#### [👤 User & Permission Management Commands](#-user--permission-management-commands)
+
+#### [🔎 Search & Filter Commands](#-search--filter-commands)
+
+#### [🌳 Directory Structure Commands](#-directory-structure-commands)
+
+#### [🌐 Networking Commands](#-networking-commands)
+
+#### [🔗 Git Commands](#-git-commands)
+
+#### [🛡️ Security Script Execution Commands](#-security-script-execution-commands)
+
+#### [💻 Terminal Utility Commands](#-terminal-utility-commands)
 ---
 
 # 📦 Package Management Commands
