@@ -167,6 +167,24 @@ These commands are commonly used for managing and working efficiently with the L
 | `exit` | Closes the terminal session | `exit` |
 
 ---
+---
+
+# Keypad Terminal Shortcut:-
+- ctrl + alt = Release mouse & keyboard on screen
+- ctrl + alt + t = Open new terminal
+- ctrl + shift + ++ = Zoom in terminal
+- ctrl + -- = Zoom out terminal
+- ctrl + shift + r = Terminal split from middle vertical
+- ctrl + shift + d = Terminal split from horizontal position
+- alt + tab = Switch one tab to another tab
+- ctrl + c = Stop the running command
+- ctrl + L = Clear the terminal screen
+- Ctrl + D = Exit the terminal
+- Ctrl + Shift + C = Copy
+- Ctrl + Shift + V = Paste
+- Ctrl + Y = Paste the last deleted text
+
+---
 
 # Responsible Use
 
@@ -181,3 +199,4 @@ Always use Linux commands, security tools, and techniques only on systems where 
 This repository will be updated regularly with new commands, examples, and cybersecurity learning notes.
 
 # Learning • Practicing • Improving
+---
