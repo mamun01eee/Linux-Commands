@@ -4,29 +4,6 @@ A practical collection of Linux commands that I am learning during my Cyber Secu
 
 This repository contains my personal notes, explanations, and practical examples of commonly used Linux commands.
 
-## 📚 Topics Covered
-
-#### [📦 Package Management Commands](#-package-management-commands)
-
-#### [📁 File & Directory Management Commands](#-file--directory-management-commands)
-
-#### [📂 Navigation Commands](#-navigation-commands)
-
-#### [📄 File Viewing & Editing Commands](#-file-viewing--editing-commands)
-
-#### [👤 User & Permission Management Commands](#-user--permission-management-commands)
-
-#### [🔎 Search & Filter Commands](#-search--filter-commands)
-
-#### [🌳 Directory Structure Commands](#-directory-structure-commands)
-
-#### [🌐 Networking Commands](#-networking-commands)
-
-#### [🔗 Git Commands](#-git-commands)
-
-#### [🛡️ Security Script Execution Commands](#-security-script-execution-commands)
-
-#### [💻 Terminal Utility Commands](#-terminal-utility-commands)
 ---
 
 # 📦 Package Management Commands
