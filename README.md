@@ -134,7 +134,6 @@ These commands are used to view network information, check connectivity, and tro
 | `ping <host>` | Tests network connectivity between your system and a host | `ping google.com` |
 
 ---
----
 
 # Git Commands
 
